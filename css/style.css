@@ -98,9 +98,9 @@ header {
   }
   
 body {
-    size: 980px;
+    
     background-image: url(../images/architecture-attractive-background-988873.jpg);
-    background-size: cover;
+    background-size: contain;
 }
 
 section {
@@ -112,7 +112,7 @@ section {
 }
 
 .bio {
-    padding: 10%;
+
 }
 
 .bio p {
@@ -120,6 +120,6 @@ section {
 }
 
 #headshot {
-  float: left;
-  width: ;
+  clear: both;
+  background-attachment: fixed;
 }
