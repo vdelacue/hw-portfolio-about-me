@@ -1,19 +1,4 @@
-/* * {
-    box-sizing: border-box;
-    text-align: center;
-} */
 
-
-/* .clearfix::after,
-.clearfix::before {
-    content: " ";
-    clear: both;
-    display: block;
-} */
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -59,7 +44,11 @@ table {
 	border-spacing: 0;
 }
 
-
+*,* ::before, *::after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
 header {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -125,4 +114,12 @@ section {
 .bio {
     padding: 10%;
 }
-  
+
+.bio p {
+  font-family: Robotto;
+}
+
+#headshot {
+  float: left;
+  width: ;
+}
